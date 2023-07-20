@@ -1,144 +1,108 @@
-const logotext = "JOHN";
+import IMG1 from "./assets/images/img1.jpg";
+import IMG2 from "./assets/images/img2.jpg";
+import IMG3 from "./assets/images/img3.jpg";
+import IMG4 from "./assets/images/img4.jpg";
+import IMG5 from "./assets/images/img5.png";
+import IMG6 from "./assets/images/img6.jpg";
+
+
+
+const logotext = "CORLIS";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Corlis Trishna",
+    description: "I’m Corlis Trishna Motion GFX Designer _ videographer, One man machine,currently working in Kenya",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Corlis Trishna",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Highly creative",
+        second: "Dilligent and Meticulous",
+        third: "Great Team Player",
+        fourth: "Self–Driven",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Multi-talented Cinematographer with over 10 years experience in consistently developing and producing media for multiple platforms including television, live presentations, social media, and web content from pre-production to post-production.",
+    your_img_url: '/assets/images/img.jpg',
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Something about myself",
+    aboutme: "Cinematic Chronicles: A Journey through Time remains a crowning achievement in my career, reflecting my unwavering commitment to producing quality media while pushing the boundaries of creativity. With each project I take on, I aspire to blend passion, skill, and innovation to craft stories that resonate with audiences and leave a lasting impact. I look forward to future endeavors that challenge and inspire me to create even more engaging and visually stunning content for diverse platforms..",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
-];
+const hobbies = {
+     li:"Basketball",
+     li:"Chess",
+     li:"PC gamer",
+     li:"Watching Movies",
+     li:"Reading books",
+};
 
 const skills = [{
-        name: "Python",
+        name: "Adobe Premiere Pro",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "After Effects",
         value: 85,
     },
     {
-        name: "Javascript",
-        value: 80,
+        name: "Final Cut Pro",
+        value: 70,
     },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
+    
+
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Content Creation",
+        description: "Utilizing my extensive equipment proficiency, I employ state-of-the-art cameras, lighting, and sound technologies to create visually stunning scenes that transported the audience to the heart of each historical period. The series demanded precision and meticulous attention to detail, as we aimed to recreate historical moments with accuracy while infusing a touch of artistic flair",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Production",
+        description: "By offering comprehensive production services, I aim to be a one-stop solution for clients seeking top-tier media content that leaves a lasting impression. From concept development to final execution, I bring a wealth of experience, technical prowess, and a keen eye for detail to every project. I look forward to collaborating with clients who share a vision for outstanding media that makes a lasting impact across multiple platforms.  ",
     },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+   
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: IMG1,
+        description: "Befeater Pink Ad Campaign",
+        link: "https://vimeo.com/669711270", // befeater //
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: IMG2,
+        description: "Land Rover new model",
+        link: "https://vimeo.com/https://vimeo.com/user61592339480377884#", // land rover //
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: IMG3,
+        description: "Jameson Ad",
+        link: "https://vimeo.com/user61592339", // jameson //
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: IMG4,
+        description: "Playabet Ad",
+        link: "https://vimeo.com/user61592339", // playabet//
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: IMG5,
+        description: "ICEA Group",
+        link: "https://vimeo.com/user61592339", // ICEA //
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: IMG6,
+        description: "A sip of Martell Campaign",
+        link: "https://vimeo.com/user61592339", //martell//
     },
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+   
+ 
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "corlistrishna@gmail.com",
+    YOUR_FONE: "+254 714456012",
+    description: "You can reach me at any time with the number and email above ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,16 +111,15 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    instagram:"https://instagram.com/corlistrishna",
+    whatsapp: "https://whatsapp.com/corlistrishna",
+    twitter: "https://twitter.com/corlistrishna",
 };
 export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
+    hobbies,
     skills,
     services,
     introdata,
